@@ -13,4 +13,8 @@ public class Movie {
 		this.year = year;
 		this.genres = genres;
 	}	
+	
+	public String getName(Movie movie) {
+		return movie.name;
+	}
 }

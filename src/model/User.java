@@ -7,6 +7,10 @@ public class User {
 		this.name = name;
 	}
 	
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getName(User user) {
 		return user.name;
 	}
